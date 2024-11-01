@@ -10,6 +10,6 @@ no_btn.addEventListener('click', ()=>{
 yes_btn.addEventListener("click", ()=>{
     const aceitou = confirm("Certeza? :| (Ok = sim, Cancelar = não)");
     if(aceitou == true){
-        alert("Quase lá. Só não quero te enganar, mas ao mesmo tempo não é justo de fazer esperar.");
+        alert("Quase lá. Só não quero te enganar, mas ao mesmo tempo não é justo te fazer esperar.");
     }
 })
