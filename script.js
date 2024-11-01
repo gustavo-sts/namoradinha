@@ -3,8 +3,8 @@ const yes_btn = document.querySelector("#yes-btn");
 
 no_btn.addEventListener('click', ()=>{
     no_btn.style.position = "absolute";
-    no_btn.style.marginLeft = Math.random() * 500 + "px";
-    no_btn.style.marginTop = Math.random() + Math.random() * 500 + "px"; 
+    no_btn.style.marginLeft = Math.random() * 200 + "px";
+    no_btn.style.marginTop = Math.random() + Math.random() * 200 + "px"; 
 })
 
 yes_btn.addEventListener("click", ()=>{
